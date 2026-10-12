@@ -3,8 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "127.0.0.1:8080:80"
+    # ports:
+    #  - "127.0.0.1:8080:80"
     volumes:
       - ./public_html:/var/www/html
       - motherboard_sessions:/var/lib/php/sessions
