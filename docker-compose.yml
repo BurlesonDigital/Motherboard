@@ -13,7 +13,7 @@ services:
       DB_NAME: motherboard
       DB_USER: motherboard
       DB_PASS: motherboard
-      BASE_URL: http://localhost:8080
+      BASE_URL: https://motherboard.burleson.digital
       FORCE_HTTPS: "false"
       APP_TIMEZONE: America/Los_Angeles
       APP_DEBUG: "1"
