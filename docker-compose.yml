@@ -37,8 +37,8 @@ services:
       MYSQL_USER: motherboard
       MYSQL_PASSWORD: motherboard
       MYSQL_ROOT_PASSWORD: root
-    ports:
-      - "127.0.0.1:3306:3306"
+    # ports:
+    #   - "127.0.0.1:3306:3306"
     volumes:
       - motherboard_db:/var/lib/mysql
     healthcheck:
